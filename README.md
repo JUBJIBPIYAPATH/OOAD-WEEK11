@@ -13,3 +13,4 @@ User --> [*] : printTicket
 User --> [*] : returnmoney
 
 ```
+![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/S1.PNG?raw=true)

@@ -124,3 +124,16 @@ else
 endif
 ```
 ![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/A4.PNG?raw=true)
+
+```
+5.
+(*) -up-> "Request Menu"
+"Request Menu" -r-> "Choose Food"
+if "" then
+-r-> [Confirm = Yes] "Call Employee"
+--> "Order Food"
+--> (*)
+else
+---> [Comfirm = No] "Choose Food" 
+```
+![]()

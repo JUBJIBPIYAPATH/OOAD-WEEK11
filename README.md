@@ -35,3 +35,15 @@ enteramount --> moneyslots : accept money
 moneyslots --> [*] : accept card
 ```
 ![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/S3.PNG?raw=true)
+
+```
+4.เข้ารหัสผ่านเว็บไซส์
+[*] -> user 
+user -up-> LoginPage : InsertNameAndPass
+LoginPage -> WebDatabase : CheckNameandPass
+WebDatabase -down-> user : SHowIncorrect
+WebDatabase -down-> user : enterpage
+user -> [*] : enterpage
+user -> [*] : SHowIncorrect
+```
+![]()

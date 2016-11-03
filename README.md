@@ -34,4 +34,4 @@ Keypad --> enteramount : Select amount money
 enteramount --> moneyslots : accept money
 moneyslots --> [*] : accept card
 ```
-![]()
+![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/S3.PNG?raw=true)

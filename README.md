@@ -57,3 +57,17 @@ off -r-> on
 ![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/S5.PNG?raw=true)
 
 #Activity Diagram
+
+```
+1.
+(*) --> Login
+if "" then
+-r-> Member
+else
+-r-> Register
+-r-> Member
+Member -r-> Website 
+Website -up-> Logout
+Logout -up-> (*)
+```
+![]()

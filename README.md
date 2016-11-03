@@ -107,3 +107,20 @@ if "money>totalcharges" then
 -->(*)
 ```
 ![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/A3.PNG?raw=true)
+
+```
+4.
+(*) ->   "direct"   
+
+if "expressway" then
+-->[true] "expressway"
+
+--> "pay tolls"   
+  --right-> (*)
+else
+->[false] "traffic jam"   
+
+-r->[long time] (*)
+endif
+```
+![]()

@@ -87,3 +87,23 @@ Resend -u-> delivery
 endif
 ```
 ![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/A2.PNG?raw=true)
+
+```
+3.
+(*) -> user 
+user  -down-> MachineCheckIDCar 
+
+MachineCheckIDCar -> database 
+database -> Display
+Display -> user 
+database -> cuttingFundSystem 
+if "money>totalcharges" then 
+-->[true] "cuttingMonney"
+  --> sentSMS
+  -->(*)
+ else
+ ->[false]"Can'tcuttingMonney"
+ --> sentSMS
+-->(*)
+```
+![]()

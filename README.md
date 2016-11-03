@@ -47,3 +47,11 @@ user -> [*] : enterpage
 user -> [*] : SHowIncorrect
 ```
 ![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/S4.PNG?raw=true)
+
+```
+5.เปิดปิดไฟ 
+[*] -r-> on :install
+on -r-> off
+off -r-> on
+```
+![]()

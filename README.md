@@ -22,3 +22,16 @@ User --> [*] : returnmoney
 --> (*)
 ```
 ![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/S2.PNG?raw=true)
+
+```
+3.เครื่องกดเงิน
+state "Card Slots" as cardslots
+state "Enter Amount" as enteramount
+state "Money Slots" as moneyslots
+[*] --> cardslots : wait insert the card
+cardslots --> Keypad : Keypad successfully
+Keypad --> enteramount : Select amount money
+enteramount --> moneyslots : accept money
+moneyslots --> [*] : accept card
+```
+![]()

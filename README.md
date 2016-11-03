@@ -71,3 +71,19 @@ Website -up-> Logout
 Logout -up-> (*)
 ```
 ![](https://github.com/JUBJIBPIYAPATH/OOAD-WEEK11/blob/master/A1.PNG?raw=true)
+
+```
+2.
+(*) --> "Postman"
+Postman -d-> delivery 
+
+if "  postman come delivery\nand recipient...." then
+-l->[stay at home] "Send success"
+-up->[End] (*)  
+
+else
+-r->[Not at home] "Resend"
+Resend -u-> delivery
+endif
+```
+![]()
